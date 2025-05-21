@@ -58,13 +58,13 @@ class GradeCalculator{
 	public static void main (String[] args){
 		try{
 			
-		Student s2=new Student("Harry",99,88,75);
-		System.out.println("Name of the Student 2 is " + s2.getName());
+		Student s2=new Student("Eve",99,88,75);
+		System.out.println("Name of the Student 1 is " + s2.getName());
 		System.out.println("Marks of the Student 2 for Exam 1 is " + s2.getExam1());
 		System.out.println("Marks of the Student 2 for Exam 2 is " + s2.getExam2());
 		System.out.println("Marks of the Student 2 for Exam 3 is " + s2.getExam3());
 		
-		Student s1=new Student("Jhon",99,102,-55);
+		Student s1=new Student("Adam",99,102,-55);
 		System.out.println("Name of the Student 1 is " + s1.getName());
 		System.out.println("Marks of the Student 1 for Exam 1 is " + s1.getExam1());
 		System.out.println("Marks of the Student 1 for Exam 2 is " + s1.getExam2());

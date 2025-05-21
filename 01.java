@@ -23,16 +23,16 @@ class Classroom {
 			return daysAttended; 
 		}
 		
-		 
-		private Student[] students = new Student[10];
-		private int count = 0;
-
 
         public void setDaysAttended(int days) { 
 			daysAttended = days; 
 		}
     }
+	
+	private Student[] students = new Student[10];
+	private int count = 0;
 
+	
     public void addStudent(Student student) {
         if (count < 10) {
 			students[count++] = student;
