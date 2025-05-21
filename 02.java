@@ -4,6 +4,7 @@ class ParkingLot {
         private String licensePlate;
         private String ownerName;
         private int hoursParked;
+        
 
         public Vehicle(String licensePlate, String ownerName, int hoursParked) {
             this.licensePlate = licensePlate;
